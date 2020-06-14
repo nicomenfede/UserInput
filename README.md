@@ -4,7 +4,9 @@
 For example, the following code should output "10":
 
 TextInput input = new NumericInput();
+
 input.Add('1');
 input.Add('a');
 input.Add('0');
+
 Console.WriteLine(input.GetValue());
